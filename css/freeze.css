@@ -844,11 +844,14 @@ section#about .about-item:hover i.fa {
   color: #ffffff;
   background: #66cdcc;
 }
+section#about {
+  background: #f6f6f6;
+}
 section#about .about-item:hover h3 {
   color: #66cdcc;
 }
 section#features {
-  background: #f6f6f6;
+  background: #ffffff;
 }
 section#features header h1:after {
   background: #66cdcc;
@@ -871,35 +874,35 @@ section#features .media.active i.fa {
 section#features .media.active .media-heading {
   color: #66cdcc;
 }
-section#reviews {
-  background: url("../img/freeze/bk-freeze.jpg");
+section#pricing {
+  background: #f6f6f6;
 }
-section#reviews header {
+section#pricing header {
   color: #ffffff;
 }
-section#reviews header h1:after {
-  background: #ffffff;
+section#pricing header h1:after {
+  background: #f6f6f6;
 }
-section#reviews .review-filtering .review .review-person img {
+section#pricing .review-filtering .review .review-person img {
   border: 3px solid #ffffff;
 }
-section#reviews .review-filtering .review .review-comment {
+section#pricing .review-filtering .review .review-comment {
   background: #ffffff;
 }
-section#reviews .review-filtering .review .review-comment h3 {
+section#pricing .review-filtering .review .review-comment h3 {
   color: #66cdcc;
 }
-section#reviews .review-filtering .review .review-comment p span i {
+section#pricing .review-filtering .review .review-comment p span i {
   color: #66cdcc;
 }
-section#reviews .review-filtering .review .review-comment:after {
+section#pricing .review-filtering .review .review-comment:after {
   border-right-color: #ffffff;
 }
-section#reviews .review-filtering .slick-dots li button {
+section#pricing .review-filtering .slick-dots li button {
   background: #ffffff;
   border: 2px solid #ffffff;
 }
-section#reviews .review-filtering .slick-dots li.slick-active button {
+section#pricing .review-filtering .slick-dots li.slick-active button {
   background: #66cdcc;
 }
 section#screens header h1:after {
@@ -932,10 +935,10 @@ section#screens .filter a.active {
   border-color: #66cdcc;
 }
 /* demo video Section */
-section#demo {
-  background: #f6f6f6;
+section#videos {
+  background: #ffffff;
 }
-section#demo header h1:after {
+section#videos header h1:after {
   background: #66cdcc;
 }
 /* Get app Section */
