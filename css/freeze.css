@@ -1119,6 +1119,7 @@ form .form-control:focus {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+    cursor:pointer;
 }
 
 #features .portfolio-item .portfolio-link .portfolio-hover {
