@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="js/rs-plugin/css/settings.css">
 
     <link rel="stylesheet" href="css/freeze.css">
-
+    <link rel="stylesheet" href="css/carousel.css">
 
     <script type="text/javascript" src="js/modernizr.custom.32033.js"></script>
 
@@ -45,170 +45,122 @@
         </div>
     </div>
 
-    <header>
-
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-                <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                            <span class="fa fa-bars fa-lg"></span>
-                        </button>
-                        <a class="navbar-brand" href="index.html">
-                            <img src="img/atkloud/atkloud_logo.png" alt="" class="logo" height="81px">
-                        </a>
-                    </div>
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#about">about</a>
-                            </li>
-                            <li><a href="#features">features</a>
-                            </li>
-                            <li><a href="#videos">videos</a>
-                            </li>
-                            <li><a href="#contact">contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- /.navbar-collapse -->
-                </div>
-                <!-- /.container-->
-        </nav>
-
-
-        <!--RevSlider-->
-        <div class="tp-banner-container">
-            <div class="tp-banner" >
-                <ul>
-                    <!-- SLIDE  -->
-                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
-                        <!-- MAIN IMAGE -->
-                        <img src="img/transparent.png"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-                        <!-- LAYERS -->
-                        <!-- LAYER NR. 1 -->
-                        <div class="tp-caption lfl fadeout hidden-xs"
-                            data-x="left"
-                            data-y="bottom"
-                            data-hoffset="30"
-                            data-voffset="0"
-                            data-speed="500"
-                            data-start="700"
-                            data-easing="Power4.easeOut">
-                            <img src="img/atkloud/main_slide_1_500_600.png" alt="" height="600px">
-                        </div>
-
-                        <div class="tp-caption lfl fadeout visible-xs"
-                            data-x="left"
-                            data-y="center"
-                            data-hoffset="700"
-                            data-voffset="0"
-                            data-speed="500"
-                            data-start="700"
-                            data-easing="Power4.easeOut">
-                            <img src="img/atkloud/main_slide_1_228_500.png" alt="" height="500px">
-                        </div>
-
-                        <div class="tp-caption large_white_bold sft" data-x="550" data-y="center" data-hoffset="0" data-voffset="-80" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
-                            atkloud
-                        </div>
-                        <div class="tp-caption large_white_light sfr" data-x="800" data-y="center" data-hoffset="0" data-voffset="-80" data-speed="500" data-start="1400" data-easing="Power4.easeOut">
-                            CloudOffice
-                        </div>
-                        <div class="tp-caption large_white_light sfb" data-x="550" data-y="center" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1500" data-easing="Power4.easeOut">
-                            Master your data
-                        </div>
-
-                        <div class="tp-caption sfb hidden-xs" data-x="550" data-y="center" data-hoffset="0" data-voffset="85" data-speed="1000" data-start="1700" data-easing="Power4.easeOut">
-                            <a href="#about" class="btn btn-primary inverse btn-lg">LEARN MORE</a>
-                        </div>
-                        <div class="tp-caption sfr hidden-xs" data-x="730" data-y="center" data-hoffset="0" data-voffset="85" data-speed="1500" data-start="1900" data-easing="Power4.easeOut">
-                            <a href="#videos" class="btn btn-default btn-lg">WATCH VIDEOS</a>
-                        </div>
-
-                    </li>
-                    <!-- SLIDE 2 -->
-                    <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000" >
-                        <!-- MAIN IMAGE -->
-                        <img src="img/transparent.png"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-                        <!-- LAYERS -->
-                        <!-- LAYER NR. 1 -->
-                        <div class="tp-caption lfb fadeout hidden-xs"
-                            data-x="center"
-                            data-y="bottom"
-                            data-hoffset="0"
-                            data-voffset="0"
-                            data-speed="1000"
-                            data-start="700"
-                            data-easing="Power4.easeOut">
-                            <img src="img/atkloud/workflow.png" alt="" height="200px" width="80%">
-                        </div>
-
-
-                        <div class="tp-caption large_white_light sft" data-x="center" data-y="250" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1400" data-easing="Power4.easeOut">
-                            Automate workflows. Create processes.
-                        </div>
-
-
-                    </li>
-
-                    <!-- SLIDE 3 -->
-                    <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000" >
-                        <!-- MAIN IMAGE -->
-                        <img src="img/transparent.png"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-                        <!-- LAYERS -->
-                        <!-- LAYER NR. 1 -->
-                        <div class="tp-caption customin customout hidden-xs"
-                            data-x="right"
-                            data-y="center"
-                            data-hoffset="0"
-                            data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
-                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                            data-voffset="50"
-                            data-speed="1000"
-                            data-start="700"
-                            data-easing="Power4.easeOut">
-                            <img src="img/atkloud/fondo_youtube.png" alt="" height="400px">
-                        </div>
-
-                        <div class="tp-caption customin customout visible-xs"
-                            data-x="center"
-                            data-y="center"
-                            data-hoffset="0"
-                            data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
-                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                            data-voffset="0"
-                            data-speed="1000"
-                            data-start="700"
-                            data-easing="Power4.easeOut">
-                            <img src="img/atkloud/fondo_youtube.png" alt="">
-                        </div>
-
-                        <div class="tp-caption lfb visible-xs" data-x="center" data-y="center" data-hoffset="0" data-voffset="400" data-speed="1000" data-start="1200" data-easing="Power4.easeOut">
-                            <a href="#" class="btn btn-primary inverse btn-lg">Purchase</a>
-                        </div>
-
-
-                        <div class="tp-caption mediumlarge_light_white sfl hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="-50" data-speed="1000" data-start="1000" data-easing="Power4.easeOut">
-                           Work with any browser
-                        </div>
-                        <div class="tp-caption mediumlarge_light_white sft hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1200" data-easing="Power4.easeOut">
-                           Use the cloud or your servers
-                        </div>
-                        <div class="tp-caption mediumlarge_light_white sft hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="50" data-speed="1000" data-start="1400" data-easing="Power4.easeOut">
-                           Secure your information
-                        </div>
-
-                    </li>
-
-                </ul>
-            </div>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a class="navbar-brand" href="index.html">
+                <img src="img/atkloud/atkloud_logo.png" alt="" class="logo" height="30px">
+            </a>            
         </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about">about</a>
+                </li>
+                <li><a href="#features">features</a>
+                </li>
+                <li><a href="#videos">videos</a>
+                </li>
+                <li><a href="#contact">contact</a>
+                </li>
+            </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 
 
-    </header>
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <div class="container">
+            <div class="carousel-caption">
+                <h1>Extract data</h1>
+                <hr />
+                <div class="row">
+                    <div class="col-xs-4">
+                        <h3>SQL databases</h3> <p>MySQL, Oracle, Postgres, SQL Server...</p>
+                    </div>
+                    <div class="col-xs-4">
+                        <h3>Files</h3><p>FTP, Dropbox, Amazon S3, Microsoft Azure, Google Drive</p>
+                    </div>
+                    <div class="col-xs-4">
+                        <h3>Non SQL databases</h3><p>MongoDB</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Transform data</h1>
+                <hr />
+                <div class="row">
+                    <div class="col-xs-6">
+                        <h3>Visual ETL editor</h3> <p>Read, join, add fields... any transformation can be applied to your data</p>
+                    </div>
+                    <div class="col-xs-6">
+                        <h3>Build scripts</h3><p>Code your own scripts in order to create complex and powerful transformations</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Analize data</h1>
+                <hr />
+                <div class="row">
+                    <div class="col-xs-6">
+                        <h3>Index</h3> <p>Index the data using Elasticsearch, that provides full-text search capabilities</p>
+                    </div>
+                    <div class="col-xs-6">
+                        <h3>Analytic spreadsheets</h3><p>Create analytic spreadsheets that present calculated information</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Business processes</h1>
+                <hr />
+                <div class="row">
+                    <div class="col-xs-6">
+                        <h3>Visual editor</h3><p>Model your business processes (BPM)</p>
+                    </div>
+                    <div class="col-xs-6">
+                        <h3>Data integration</h3><p>Automate transformations executions with your processes</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
 
 
     <div class="wrapper">
@@ -259,9 +211,9 @@
         <section id="features">
             <div class="container">
               <div class="section-heading scrollpoint sp-effect3">
-                  <h1>Features</h1>
+                  <h1>Modules</h1>
                   <div class="divider"></div>
-                  <p>Main atkloud features</p>
+                  <p>Main atkloud modules</p>
               </div>
 
               <div class="row">
@@ -307,6 +259,8 @@
                           <p class="text-muted">Model your business processes</p>
                       </div>
                   </div>
+                </div>
+                <div class="row">
                   <div class="col-md-4 col-sm-6 portfolio-item">
                       <span class="portfolio-link" data-toggle="modal" data-target="#portfolioModal4" onclick="$('#portfolioModal4 .modal-body').load('modals/modal_scripting.html')">
                           <div class="portfolio-hover">
@@ -444,7 +398,7 @@
                     <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
                 </div>
                 <div class="rights">
-                    <p>Copyright &copy; atkloud 2014</p>
+                    <p>Copyright &copy; atkloud <script>document.write(new Date().getFullYear())</script></p>
                 </div>
             </div>
         </footer>

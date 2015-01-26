@@ -541,6 +541,17 @@ section::after {
   font-weight: 400;
   font-weight: 300;
 }
+.tp-caption.medium_white_bold {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 300;
+}
+.tp-caption.small_white_bold {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 250;
+}
+
 .btn {
   -webkit-border-radius: 3em;
   -moz-border-radius: 3em;
@@ -745,94 +756,15 @@ form textarea.form-control {
     -webkit-transform: scale(1);
   }
 }
-header {
+.navbar {
   background: #66cdcc;
-  /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #66cdcc), color-stop(100%, #336799));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
-  /* IE10+ */
-  background: linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66cdcc, endColorstr=#336799, GradientType=1);
-  /* IE6-9 fallback on horizontal gradient */
 }
-header .navbar-default ul.navbar-nav li a {
+.navbar-default ul.navbar-nav li a {
   color: #ffffff;
   background: none;
 }
-header .navbar-default ul.navbar-nav li a.getApp {
+.navbar-default ul.navbar-nav li a:hover {
   color: #3c79b4;
-  background: #ffffff;
-  /* Old browsers */
-  background: -moz-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ffffff), color-stop(100%, #e0e0e0));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
-  /* IE10+ */
-  background: linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#e0e0e0, GradientType=1);
-  /* IE6-9 fallback on horizontal gradient */
-}
-header .navbar-default ul.navbar-nav li a.getApp:hover {
-  color: #4081bf;
-  background: #ffffff;
-  /* Old browsers */
-  background: -moz-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ffffff), color-stop(100%, #cccccc));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
-  /* IE10+ */
-  background: linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#cccccc, GradientType=1);
-  /* IE6-9 fallback on horizontal gradient */
-  -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  -ms-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
-}
-header .navbar-default ul.navbar-nav li a:hover {
-  color: #ffffff;
-  -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  -ms-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
-}
-header .navbar-default.scrolled {
-  border-bottom: 3px solid #ffffff;
-}
-header .navbar-default.scrolled ul.navbar-nav li a {
-  color: #336799;
-}
-header .navbar-default.scrolled ul.navbar-nav li a:hover {
-  color: #336799;
-}
-header .navbar-default.scrolled ul.navbar-nav li a:hover:after {
-  background: #336799;
-}
-header .navbar-default.scrolled .navbar-brand {
-  background: rgba(255, 255, 255, 0);
-  border-color: transparent;
 }
 section .section-heading .divider:after {
   background: #66cdcc;
@@ -875,117 +807,12 @@ section#features .media.active i.fa {
 section#features .media.active .media-heading {
   color: #66cdcc;
 }
-section#pricing {
-  background: #f6f6f6;
-}
-section#pricing header {
-  color: #ffffff;
-}
-section#pricing header h1:after {
-  background: #f6f6f6;
-}
-section#pricing .review-filtering .review .review-person img {
-  border: 3px solid #ffffff;
-}
-section#pricing .review-filtering .review .review-comment {
-  background: #ffffff;
-}
-section#pricing .review-filtering .review .review-comment h3 {
-  color: #66cdcc;
-}
-section#pricing .review-filtering .review .review-comment p span i {
-  color: #66cdcc;
-}
-section#pricing .review-filtering .review .review-comment:after {
-  border-right-color: #ffffff;
-}
-section#pricing .review-filtering .slick-dots li button {
-  background: #ffffff;
-  border: 2px solid #ffffff;
-}
-section#pricing .review-filtering .slick-dots li.slick-active button {
-  background: #66cdcc;
-}
-section#screens header h1:after {
-  background: #66cdcc;
-}
-section#screens .slider div img {
-  border: 2px solid #e5e5e5;
-}
-section#screens .slider div h4 {
-  color: #999999;
-}
-section#screens .slider .slick-dots li button {
-  background: #999999;
-}
-section#screens .slider .slick-dots li.slick-active button {
-  background: #66cdcc;
-}
-section#screens .filter a {
-  border: 2px solid #cccccc;
-  color: #999999;
-}
-section#screens .filter a:hover {
-  color: #ffffff;
-  background: #66cdcc;
-  border-color: #66cdcc;
-}
-section#screens .filter a.active {
-  color: #ffffff;
-  background: #66cdcc;
-  border-color: #66cdcc;
-}
 /* demo video Section */
 section#videos {
-  background: #ffffff;
+  background: #f6f6f6;
 }
 section#videos header h1:after {
   background: #66cdcc;
-}
-/* Get app Section */
-section#getApp {
-  background: url("../img/freeze/bk-freeze-ga.jpg");
-}
-section#getApp header {
-  color: #ffffff;
-}
-section#getApp header h1:after {
-  background: #ffffff;
-}
-section#getApp .platforms .media {
-  border: 2px solid #ffffff;
-  color: #ffffff;
-}
-section#getApp .platforms .media a i {
-  color: #ffffff;
-}
-section#getApp .platforms .media a div.media-body {
-  color: #ffffff;
-}
-section#getApp .platforms .media:hover {
-  background: #ffffff;
-}
-section#getApp .platforms .media:hover a i,
-section#getApp .platforms .media:hover a div.media-body {
-  color: #66cdcc;
-}
-/* support section */
-section#support header h1:after {
-  background: #66cdcc;
-}
-section#support .media i.fa {
-  border: 2px solid #66cdcc;
-  color: #66cdcc;
-}
-section#support .media a {
-  color: #66cdcc;
-}
-section#support .media:hover i.fa {
-  color: #ffffff;
-  background: #66cdcc;
-}
-section#support .media:hover h3 {
-  color: #66cdcc;
 }
 /* footer section */
 footer {
