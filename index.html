@@ -155,13 +155,15 @@
               <div class="section-heading scrollpoint sp-effect3">
                   <h1>Modules</h1>
                   <div class="divider"></div>
-                  <p>Main atkloud modules</p>
               </div>
                 
               <div class="row featurette">
                 <div class="col-md-6">
-                  <h2 class="featurette-heading">Data modeler. <small>Create or modify SQL data tables.</small></h2>
-                  <p class="lead">We allow to operate against the more popular database management systems, like MySQL, Oracle, Postgres or SQL Server.</p>
+                  <h2 class="featurette-heading">Data modeler <br /><small>Create or modify SQL data tables.</small></h2>
+                  <p class="lead">Work with the more popular database management systems: MySQL, Oracle, Postgres or SQL Server.</p>
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#portfolioModal" onclick="loadModal('modals/modal_data_modeler.html')">
+                        View more
+                    </button>
                 </div>
                 <div class="col-md-6">
                   <img class="featurette-image img-responsive" src="img/atkloud/portfolio/data_modeler/data_modeler.png" alt="">
@@ -175,7 +177,7 @@
                   <img class="featurette-image img-responsive" src="img/atkloud/portfolio/workflow_designer/workflow_designer.png" alt="">
                 </div>
                 <div class="col-md-6">
-                  <h2 class="featurette-heading">ETL designer. <small>Extract, transform and load data.</small></h2>
+                  <h2 class="featurette-heading">ETL designer <br /><small>Extract, transform and load data.</small></h2>
                   <p class="lead">Read data from tables or files, add or modify fields, join or filter datasources and store data in the desired destination storage.</p>
                 </div>
               </div>
@@ -184,7 +186,7 @@
 
               <div class="row featurette">
                 <div class="col-md-6">
-                  <h2 class="featurette-heading">Business processes. <small>Built-in BPM.</small></h2>
+                  <h2 class="featurette-heading">Business processes <br /><small>Built-in BPM.</small></h2>
                   <p class="lead">Define your business processes visually. Integrate ETL execution with tasks. Connect processes with documents and files. Manage permissions for users and roles.</p>
                 </div>
                 <div class="col-md-6">
@@ -199,7 +201,7 @@
                   <img class="featurette-image img-responsive" src="img/atkloud/portfolio/scripting/script_editor.png" alt="">
                 </div>
                 <div class="col-md-6">
-                  <h2 class="featurette-heading">Scripting. <small>Perform complex tasks programmatically.</small></h2>
+                  <h2 class="featurette-heading">Scripting <br /><small>Write code for complex tasks.</small></h2>
                   <p class="lead">We provide a built-in Groovy language extension that allows to create rich programs for processing data.</p>
                 </div>
               </div>
@@ -208,7 +210,7 @@
 
               <div class="row featurette">
                 <div class="col-md-6">
-                  <h2 class="featurette-heading">File explorer. <small>Access to all your files in just one place.</small></h2>
+                  <h2 class="featurette-heading">File explorer <br /><small>Access to all your files in just one place.</small></h2>
                   <p class="lead">Create connections to Amazon S3, Dropbox, FTP sites, Google Drive or Microsoft Azure. Full-text search over all your files. Syncronize folders and connections contents.</p>
                 </div>
                 <div class="col-md-6">
@@ -220,10 +222,10 @@
 
               <div class="row featurette">
                 <div class="col-md-6">
-                  <img class="featurette-image img-responsive" src="img/atkloud/portfolio/scripting/script_editor.png" alt="">
+                  <img class="featurette-image img-responsive" src="img/atkloud/portfolio/data_explorer/data_explorer_2.png" alt="">
                 </div>
                 <div class="col-md-6">
-                  <h2 class="featurette-heading">Data explorer. <small>Query and modify data.</small></h2>
+                  <h2 class="featurette-heading">Data explorer <br /><small>Query and modify data.</small></h2>
                   <p class="lead">Insert, update, delete, import and export rows in SQL tables or documents in Mongo non SQL collections.</p>
                 </div>
               </div>
@@ -232,11 +234,11 @@
 
               <div class="row featurette">
                 <div class="col-md-6">
-                  <h2 class="featurette-heading">Full text search. <small>Index your data.</small></h2>
-                  <p class="lead">Index the contents of your tables, queries or even ETL results, in order to perform fast full text search queries.</p>
+                  <h2 class="featurette-heading">Full text search <br /><small>Index your data.</small></h2>
+                  <p class="lead">Search all application objects in one only search page. <br />Index the contents of your tables, queries or even ETL results, in order to perform fast full text search queries.</p>
                 </div>
                 <div class="col-md-6">
-                  <img class="featurette-image img-responsive" src="img/atkloud/portfolio/file_explorer/file_explorer.png" alt="">
+                  <img class="featurette-image img-responsive" src="img/atkloud/portfolio/full_text_search/full_text_search.png" alt="">
                 </div>
               </div>
 
@@ -244,10 +246,10 @@
 
               <div class="row featurette">
                 <div class="col-md-6">
-                  <img class="featurette-image img-responsive" src="img/atkloud/portfolio/file_explorer/file_explorer.png" alt="">
+                  <img class="featurette-image img-responsive" src="img/atkloud/portfolio/analytic_sheet/analytic_sheet.png" alt="">
                 </div>
                 <div class="col-md-6">
-                  <h2 class="featurette-heading">Analytic spreadsheets. <small>Use excel sheets to analyze data.</small></h2>
+                  <h2 class="featurette-heading">Analytic spreadsheets <br /><small>Use excel sheets to analyze data.</small></h2>
                   <p class="lead">Perform calculations on ETL results, showing them on an Excel Sheet. Search and filter using full text search capabilities.</p>
                 </div>
               </div>
@@ -256,14 +258,29 @@
 
               <div class="row featurette">
                 <div class="col-md-6">
-                  <h2 class="featurette-heading">Spreadsheet forms. <small>Modify data using Excel Sheets.</small></h2>
+                  <h2 class="featurette-heading">Spreadsheet forms <br /><small>Modify data using Excel Sheets.</small></h2>
                   <p class="lead">Store data in Mongo, and modify the data using spreadsheet.</p>
                 </div>
                 <div class="col-md-6">
                   <img class="featurette-image img-responsive" src="img/atkloud/portfolio/file_explorer/file_explorer.png" alt="">
                 </div>
               </div>
+                
+              <hr class="featurette-divider">
+            
+              <div class="row featurette">
+                <div class="col-md-6">
+                  <img class="featurette-image img-responsive" src="img/atkloud/portfolio/security/security.png" alt="">
+                </div>
+                <div class="col-md-6">
+                  <h2 class="featurette-heading">Security <br /><small>Enterprise security.</small></h2>
+                  <p class="lead">Every object in the application is managed by permissions. Define access control lists for roles and users.</p>
+                </div>
+              </div>
+                
             </div>
+            
+
 
         </section>
 
@@ -380,7 +397,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            Loading test...
+                            Not defined yet...
                         </div>
                     </div>
                 </div>
@@ -401,7 +418,15 @@
         $(document).ready(function() {
             appMaster.preLoader();
         });
-        
+        function loadModal(modalFile){
+            alert('load modal');
+            $('#portfolioModal .modal-body').load(modalFile, function(response, status, xhr) {
+                if (status == "error") {
+                    var msg = "Sorry but there was an error: ";
+                    alert(msg + xhr.status + " " + xhr.statusText);
+                  }
+            });
+        }
     </script>
 
 </body>
