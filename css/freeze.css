@@ -762,6 +762,7 @@ form textarea.form-control {
 .navbar-default ul.navbar-nav li a {
   color: #ffffff;
   background: none;
+  font-size: 16px;
 }
 .navbar-default ul.navbar-nav li a:hover {
   color: #3c79b4;
@@ -1084,3 +1085,29 @@ form .form-control:focus {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+ 
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+

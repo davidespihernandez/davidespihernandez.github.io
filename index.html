@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="js/rs-plugin/css/settings.css">
 
     <link rel="stylesheet" href="css/freeze.css">
-    <link rel="stylesheet" href="css/carousel.css">
 
     <script type="text/javascript" src="js/modernizr.custom.32033.js"></script>
 
@@ -74,99 +73,6 @@
     </nav>
 
 
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption">
-                <h1>Extract data</h1>
-                <hr />
-                <div class="row">
-                    <div class="col-xs-4">
-                        <h3>SQL databases</h3> <p>MySQL, Oracle, Postgres, SQL Server...</p>
-                    </div>
-                    <div class="col-xs-4">
-                        <h3>Files</h3><p>FTP, Dropbox, Amazon S3, Microsoft Azure, Google Drive</p>
-                    </div>
-                    <div class="col-xs-4">
-                        <h3>Non SQL databases</h3><p>MongoDB</p>
-                    </div>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Transform data</h1>
-                <hr />
-                <div class="row">
-                    <div class="col-xs-6">
-                        <h3>Visual ETL editor</h3> <p>Read, join, add fields... any transformation can be applied to your data</p>
-                    </div>
-                    <div class="col-xs-6">
-                        <h3>Build scripts</h3><p>Code your own scripts in order to create complex and powerful transformations</p>
-                    </div>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Analize data</h1>
-                <hr />
-                <div class="row">
-                    <div class="col-xs-6">
-                        <h3>Index</h3> <p>Index the data using Elasticsearch, that provides full-text search capabilities</p>
-                    </div>
-                    <div class="col-xs-6">
-                        <h3>Analytic spreadsheets</h3><p>Create analytic spreadsheets that present calculated information</p>
-                    </div>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Business processes</h1>
-                <hr />
-                <div class="row">
-                    <div class="col-xs-6">
-                        <h3>Visual editor</h3><p>Model your business processes (BPM)</p>
-                    </div>
-                    <div class="col-xs-6">
-                        <h3>Data integration</h3><p>Automate transformations executions with your processes</p>
-                    </div>
-                </div>
-            </div>
-          </div>
-        </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div><!-- /.carousel -->
-
-
     <div class="wrapper">
 
 
@@ -182,6 +88,37 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-3 col-xs-6">
                         <div class="about-item scrollpoint sp-effect2">
+                            <i class="fa fa-table fa-2x fa-fw"></i>
+                            <h3>Extract data</h3>
+                            <p>Access to SQL databases, non SQL collections or files.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6" >
+                        <div class="about-item scrollpoint sp-effect5">
+                            <i class="fa fa-random fa-2x fa-fw"></i>
+                            <h3>Transform data</h3>
+                            <p>Create ETL processes using our visual editor, and build scripts in order to create complex and powerful transformations.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6" >
+                        <div class="about-item scrollpoint sp-effect5">
+                            <i class="fa fa-bar-chart-o fa-2x fa-fw"></i>
+                            <h3>Analyze data</h3>
+                            <p>Perform full-text searches over your data, and use analytic spreadsheets to show calculated information.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6" >
+                        <div class="about-item scrollpoint sp-effect1">
+                            <i class="fa fa-code-fork fa-2x fa-fw"></i>
+                            <h3>Business processes</h3>
+                            <p>Model and execute your business processes (BPM), and integrate ETL on them.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="about-item scrollpoint sp-effect2">
                             <i class="fa fa-file-code-o fa-2x fa-fw"></i>
                             <h3>Web application</h3>
                             <p>Atkloud is a web application. Any modern web browser allows users to operate the data.</p>
@@ -191,7 +128,7 @@
                         <div class="about-item scrollpoint sp-effect5">
                             <i class="fa fa-database fa-2x fa-fw"></i>
                             <h3>Data hub</h3>
-                            <p>Access all your data sources (files, databases…) and operate in just one place.</p>
+                            <p>Access all your data sources (files, databases...) and operate in just one place.</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-6" >
@@ -209,6 +146,7 @@
                         </div>
                     </div>
                 </div>
+                
             </div>
         </section>
 
@@ -219,97 +157,112 @@
                   <div class="divider"></div>
                   <p>Main atkloud modules</p>
               </div>
-
-              <div class="row">
-                  <div class="col-md-4 col-sm-6 portfolio-item">
-                      <span class="portfolio-link" data-toggle="modal" data-target="#portfolioModal1" onclick="$('#portfolioModal1 .modal-body').load('modals/modal_data_modeler.html')">
-                          <div class="portfolio-hover">
-                              <div class="portfolio-hover-content">
-                                  <i class="fa fa-plus fa-3x"></i>
-                              </div>
-                          </div>
-                          <img src="img/atkloud/portfolio/data_modeler/data_modeler.png" class="img-responsive" alt="">
-                      </span>
-                      <div class="portfolio-caption">
-                          <h4>Data modeler</h4>
-                          <p class="text-muted">Model your information</p>
-                      </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6 portfolio-item">
-                      <span class="portfolio-link" data-toggle="modal" data-target="#portfolioModal2" onclick="$('#portfolioModal2 .modal-body').load('modals/modal_workflow_designer.html')">
-                          <div class="portfolio-hover">
-                              <div class="portfolio-hover-content">
-                                  <i class="fa fa-plus fa-3x"></i>
-                              </div>
-                          </div>
-                          <img src="img/atkloud/portfolio/workflow_designer/workflow_designer.png" class="img-responsive" alt="">
-                      </span>
-                      <div class="portfolio-caption">
-                          <h4>Workflow designer</h4>
-                          <p class="text-muted">Create data process workflows (ETL)</p>
-                      </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6 portfolio-item">
-                      <span class="portfolio-link" data-toggle="modal" data-target="#portfolioModal3" onclick="$('#portfolioModal3 .modal-body').load('modals/modal_process_editor.html')">
-                          <div class="portfolio-hover">
-                              <div class="portfolio-hover-content">
-                                  <i class="fa fa-plus fa-3x"></i>
-                              </div>
-                          </div>
-                          <img src="img/atkloud/portfolio/process_editor/process_editor.png" class="img-responsive" alt="">
-                      </span>
-                      <div class="portfolio-caption">
-                          <h4>Process editor</h4>
-                          <p class="text-muted">Model your business processes</p>
-                      </div>
-                  </div>
+                
+              <div class="row featurette">
+                <div class="col-md-6">
+                  <h2 class="featurette-heading">Data modeler. <small>Create or modify SQL data tables.</small></h2>
+                  <p class="lead">We allow to operate against the more popular database management systems, like MySQL, Oracle, Postgres or SQL Server.</p>
                 </div>
-                <div class="row">
-                  <div class="col-md-4 col-sm-6 portfolio-item">
-                      <span class="portfolio-link" data-toggle="modal" data-target="#portfolioModal4" onclick="$('#portfolioModal4 .modal-body').load('modals/modal_scripting.html')">
-                          <div class="portfolio-hover">
-                              <div class="portfolio-hover-content">
-                                  <i class="fa fa-plus fa-3x"></i>
-                              </div>
-                          </div>
-                          <img src="img/atkloud/portfolio/scripting/script_editor.png" class="img-responsive" alt="">
-                      </span>
-                      <div class="portfolio-caption">
-                          <h4>Scripting</h4>
-                          <p class="text-muted">Operate your information programmatically</p>
-                      </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6 portfolio-item">
-                      <span class="portfolio-link" data-toggle="modal" data-target="#portfolioModal5" onclick="$('#portfolioModal5 .modal-body').load('modals/modal_file_explorer.html')">
-                          <div class="portfolio-hover">
-                              <div class="portfolio-hover-content">
-                                  <i class="fa fa-plus fa-3x"></i>
-                              </div>
-                          </div>
-                          <img src="img/atkloud/portfolio/file_explorer/file_explorer.png" class="img-responsive" alt="">
-                      </span>
-                      <div class="portfolio-caption">
-                          <h4>File explorer</h4>
-                          <p class="text-muted">Access your files in your storage connections</p>
-                      </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6 portfolio-item">
-                      <span class="portfolio-link" data-toggle="modal" data-target="#portfolioModal6" onclick="$('#portfolioModal6 .modal-body').load('modals/modal_dashboard.html')">
-                          <div class="portfolio-hover">
-                              <div class="portfolio-hover-content">
-                                  <i class="fa fa-plus fa-3x"></i>
-                              </div>
-                          </div>
-                          <img src="img/atkloud/portfolio/dashboard/dashboard.png" class="img-responsive" alt="">
-                      </span>
-                      <div class="portfolio-caption">
-                          <h4>Dashboards</h4>
-                          <p class="text-muted">Build full dashboards to visualize information</p>
-                      </div>
-                  </div>
+                <div class="col-md-6">
+                  <img class="featurette-image img-responsive" src="img/atkloud/portfolio/data_modeler/data_modeler.png" alt="">
+                </div>
               </div>
 
+              <hr class="featurette-divider">
 
+              <div class="row featurette">
+                <div class="col-md-6">
+                  <img class="featurette-image img-responsive" src="img/atkloud/portfolio/workflow_designer/workflow_designer.png" alt="">
+                </div>
+                <div class="col-md-6">
+                  <h2 class="featurette-heading">ETL designer. <small>Extract, transform and load data.</small></h2>
+                  <p class="lead">Read data from tables or files, add or modify fields, join or filter datasources and store data in the desired destination storage.</p>
+                </div>
+              </div>
+
+              <hr class="featurette-divider">
+
+              <div class="row featurette">
+                <div class="col-md-6">
+                  <h2 class="featurette-heading">Business processes. <small>Built-in BPM.</small></h2>
+                  <p class="lead">Define your business processes visually. Integrate ETL execution with tasks. Connect processes with documents and files. Manage permissions for users and roles.</p>
+                </div>
+                <div class="col-md-6">
+                  <img class="featurette-image img-responsive" src="img/atkloud/portfolio/process_editor/process_editor.png" alt="">
+                </div>
+              </div>
+
+              <hr class="featurette-divider">
+
+              <div class="row featurette">
+                <div class="col-md-6">
+                  <img class="featurette-image img-responsive" src="img/atkloud/portfolio/scripting/script_editor.png" alt="">
+                </div>
+                <div class="col-md-6">
+                  <h2 class="featurette-heading">Scripting. <small>Perform complex tasks programmatically.</small></h2>
+                  <p class="lead">We provide a built-in Groovy language extension that allows to create rich programs for processing data.</p>
+                </div>
+              </div>
+
+              <hr class="featurette-divider">
+
+              <div class="row featurette">
+                <div class="col-md-6">
+                  <h2 class="featurette-heading">File explorer. <small>Access to all your files in just one place.</small></h2>
+                  <p class="lead">Create connections to Amazon S3, Dropbox, FTP sites, Google Drive or Microsoft Azure. Full-text search over all your files. Syncronize folders and connections contents.</p>
+                </div>
+                <div class="col-md-6">
+                  <img class="featurette-image img-responsive" src="img/atkloud/portfolio/file_explorer/file_explorer.png" alt="">
+                </div>
+              </div>
+
+              <hr class="featurette-divider">
+
+              <div class="row featurette">
+                <div class="col-md-6">
+                  <img class="featurette-image img-responsive" src="img/atkloud/portfolio/scripting/script_editor.png" alt="">
+                </div>
+                <div class="col-md-6">
+                  <h2 class="featurette-heading">Data explorer. <small>Query and modify data.</small></h2>
+                  <p class="lead">Insert, update, delete, import and export rows in SQL tables or documents in Mongo non SQL collections.</p>
+                </div>
+              </div>
+
+              <hr class="featurette-divider">
+
+              <div class="row featurette">
+                <div class="col-md-6">
+                  <h2 class="featurette-heading">Full text search. <small>Index your data.</small></h2>
+                  <p class="lead">Index the contents of your tables, queries or even ETL results, in order to perform fast full text search queries.</p>
+                </div>
+                <div class="col-md-6">
+                  <img class="featurette-image img-responsive" src="img/atkloud/portfolio/file_explorer/file_explorer.png" alt="">
+                </div>
+              </div>
+
+              <hr class="featurette-divider">
+
+              <div class="row featurette">
+                <div class="col-md-6">
+                  <img class="featurette-image img-responsive" src="img/atkloud/portfolio/file_explorer/file_explorer.png" alt="">
+                </div>
+                <div class="col-md-6">
+                  <h2 class="featurette-heading">Analytic spreadsheets. <small>Use excel sheets to analyze data.</small></h2>
+                  <p class="lead">Perform calculations on ETL results, showing them on an Excel Sheet. Search and filter using full text search capabilities.</p>
+                </div>
+              </div>
+
+              <hr class="featurette-divider">
+
+              <div class="row featurette">
+                <div class="col-md-6">
+                  <h2 class="featurette-heading">Spreadsheet forms. <small>Modify data using Excel Sheets.</small></h2>
+                  <p class="lead">Store data in Mongo, and modify the data using spreadsheet.</p>
+                </div>
+                <div class="col-md-6">
+                  <img class="featurette-image img-responsive" src="img/atkloud/portfolio/file_explorer/file_explorer.png" alt="">
+                </div>
+              </div>
             </div>
 
         </section>
@@ -327,13 +280,16 @@
                         <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/204aiGyByEU')">Data modeler</a></li>
                         <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/204aiGyByEU')">Workflow designer</a></li>
                         <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/204aiGyByEU')">Process editor</a></li>
+                        <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/204aiGyByEU')">Processes</a></li>
                         <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/204aiGyByEU')">Scripting</a></li>
                         <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/204aiGyByEU')">File explorer</a></li>
                         <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/204aiGyByEU')">Calendar and notifications</a></li>
-                        <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/204aiGyByEU')">PDF editor</a></li>
-                        <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/204aiGyByEU')">Dashboard designer</a></li>
-                        <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/204aiGyByEU')">Spreadsheet</a></li>
+                        <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/204aiGyByEU')">Analytic sheets</a></li>
+                        <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/204aiGyByEU')">Data explorer</a></li>
+                        <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/204aiGyByEU')">Full text search</a></li>
+                        <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/204aiGyByEU')">Configuration</a></li>
                         <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/204aiGyByEU')">Security</a></li>
+                        <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/204aiGyByEU')">Spreadsheet forms</a></li>
                       </ul>
                     </div>
                     <div class="col-md-8 col-md-offset-1 scrollpoint sp-effect2">
@@ -412,8 +368,7 @@
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
 
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -425,112 +380,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            Loading...
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            Loading...
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            Loading...
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            Loading...
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                          Loading...
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                          Loading...
+                            Loading test...
                         </div>
                     </div>
                 </div>
