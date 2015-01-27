@@ -179,6 +179,9 @@
                 <div class="col-md-6">
                   <h2 class="featurette-heading">ETL designer <br /><small>Extract, transform and load data.</small></h2>
                   <p class="lead">Read data from tables or files, add or modify fields, join or filter datasources and store data in the desired destination storage.</p>
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#portfolioModal" onclick="loadModal('modals/modal_workflow_designer.html')">
+                        View more
+                    </button>
                 </div>
               </div>
 
@@ -188,6 +191,9 @@
                 <div class="col-md-6">
                   <h2 class="featurette-heading">Business processes <br /><small>Built-in BPM.</small></h2>
                   <p class="lead">Define your business processes visually. Integrate ETL execution with tasks. Connect processes with documents and files. Manage permissions for users and roles.</p>
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#portfolioModal" onclick="loadModal('modals/modal_process_editor.html')">
+                        View more
+                    </button>
                 </div>
                 <div class="col-md-6">
                   <img class="featurette-image img-responsive" src="img/atkloud/portfolio/process_editor/process_editor.png" alt="">
@@ -203,6 +209,9 @@
                 <div class="col-md-6">
                   <h2 class="featurette-heading">Scripting <br /><small>Write code for complex tasks.</small></h2>
                   <p class="lead">We provide a built-in Groovy language extension that allows to create rich programs for processing data.</p>
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#portfolioModal" onclick="loadModal('modals/modal_scripting.html')">
+                        View more
+                    </button>
                 </div>
               </div>
 
@@ -212,6 +221,9 @@
                 <div class="col-md-6">
                   <h2 class="featurette-heading">File explorer <br /><small>Access to all your files in just one place.</small></h2>
                   <p class="lead">Create connections to Amazon S3, Dropbox, FTP sites, Google Drive or Microsoft Azure. Full-text search over all your files. Syncronize folders and connections contents.</p>
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#portfolioModal" onclick="loadModal('modals/modal_file_explorer.html')">
+                        View more
+                    </button>
                 </div>
                 <div class="col-md-6">
                   <img class="featurette-image img-responsive" src="img/atkloud/portfolio/file_explorer/file_explorer.png" alt="">
@@ -227,6 +239,9 @@
                 <div class="col-md-6">
                   <h2 class="featurette-heading">Data explorer <br /><small>Query and modify data.</small></h2>
                   <p class="lead">Insert, update, delete, import and export rows in SQL tables or documents in Mongo non SQL collections.</p>
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#portfolioModal" onclick="loadModal('modals/modal_data_explorer.html')">
+                        View more
+                    </button>
                 </div>
               </div>
 
@@ -236,6 +251,9 @@
                 <div class="col-md-6">
                   <h2 class="featurette-heading">Full text search <br /><small>Index your data.</small></h2>
                   <p class="lead">Search all application objects in one only search page. <br />Index the contents of your tables, queries or even ETL results, in order to perform fast full text search queries.</p>
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#portfolioModal" onclick="loadModal('modals/modal_full_text_search.html')">
+                        View more
+                    </button>
                 </div>
                 <div class="col-md-6">
                   <img class="featurette-image img-responsive" src="img/atkloud/portfolio/full_text_search/full_text_search.png" alt="">
@@ -251,6 +269,9 @@
                 <div class="col-md-6">
                   <h2 class="featurette-heading">Analytic spreadsheets <br /><small>Use excel sheets to analyze data.</small></h2>
                   <p class="lead">Perform calculations on ETL results, showing them on an Excel Sheet. Search and filter using full text search capabilities.</p>
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#portfolioModal" onclick="loadModal('modals/modal_analytic_sheet.html')">
+                        View more
+                    </button>
                 </div>
               </div>
 
@@ -260,6 +281,9 @@
                 <div class="col-md-6">
                   <h2 class="featurette-heading">Spreadsheet forms <br /><small>Modify data using Excel Sheets.</small></h2>
                   <p class="lead">Store data in Mongo, and modify the data using spreadsheet.</p>
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#portfolioModal" onclick="loadModal('modals/modal_spreadsheet_form.html')">
+                        View more
+                    </button>
                 </div>
                 <div class="col-md-6">
                   <img class="featurette-image img-responsive" src="img/atkloud/portfolio/file_explorer/file_explorer.png" alt="">
@@ -275,6 +299,9 @@
                 <div class="col-md-6">
                   <h2 class="featurette-heading">Security <br /><small>Enterprise security.</small></h2>
                   <p class="lead">Every object in the application is managed by permissions. Define access control lists for roles and users.</p>
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#portfolioModal" onclick="loadModal('modals/modal_security.html')">
+                        View more
+                    </button>
                 </div>
               </div>
                 
@@ -419,7 +446,6 @@
             appMaster.preLoader();
         });
         function loadModal(modalFile){
-            alert('load modal');
             $('#portfolioModal .modal-body').load(modalFile, function(response, status, xhr) {
                 if (status == "error") {
                     var msg = "Sorry but there was an error: ";
