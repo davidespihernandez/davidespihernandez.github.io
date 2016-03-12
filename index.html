@@ -367,24 +367,45 @@
                     <p>More videos in our <a href="https://www.youtube.com/channel/UCFwhbibyp3k71B-rRAzlOTw">Youtube channel</a></p>
                 </div>
                 <div class="row">
-                    <div class="col-md-3">
-                      <ul class="nav nav-pills nav-stacked">
-						<li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/7HPAbimDc2o')">What is Atkloud?</a></li>
-                        <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/mPF1mzUfOGs')">Create a new Application</a></li>
-                        <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/Relly63rebk')">Users and groups</a></li>
-                        <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/ECVfTpBO808')">SQL Connections</a></li>
-                        <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/solxARoZUko')">Data Modeler</a></li>
-                        <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/cTr1HTsQ_v0')">SQL data spreadsheet</a></li>
-                        <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/ODUCHNDJSoY')">Add a child table to a SQL data spreadsheet </a></li>
-                        <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/phd1U33WatY')">Data spreadsheet using existing Excel template</a></li>
-                        <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/wWqG90E5wKs')">File explorer</a></li>
-                        <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/6dhGc6X7p_M')">Simple ETL</a></li>
-                        <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/jGWDftCIpI4')">Reports with charts in spreadsheet</a></li>
-						<!--
-                        <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/204aiGyByEU')">Configuration</a></li>
-                        <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/204aiGyByEU')">Security</a></li>
-                        <li><a href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/204aiGyByEU')">Spreadsheet forms</a></li>
-						-->
+                    <div class="col-md-3" id="videos">
+                        <input class="search" placeholder="Filter" />
+                        <button class="sort" data-sort="name">
+                            Sort by name
+                        </button>
+                      <ul class="list list-unstyled">
+						<li>
+                            <a class="name" href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/7HPAbimDc2o')">Intro - What is Atkloud?</a>
+                        </li>
+                        <li>
+                            <a class="name" href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/mPF1mzUfOGs')">Management - Create a new Application</a>
+                        </li>
+                        <li>
+                            <a class="name" href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/Relly63rebk')">Security - Users and groups</a>
+                        </li>
+                        <li>
+                            <a class="name" href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/ECVfTpBO808')">Management - SQL Connections</a>
+                        </li>
+                        <li>
+                            <a class="name" href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/solxARoZUko')">Management - Data Modeler</a>
+                        </li>
+                        <li>
+                            <a class="name" href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/cTr1HTsQ_v0')">Spreadsheet - SQL data</a>
+                        </li>
+                        <li>
+                            <a class="name" href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/ODUCHNDJSoY')">Spreadsheet - Add a SQL child table</a>
+                        </li>
+                        <li>
+                            <a class="name" href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/phd1U33WatY')">Spreadsheet - Using Excel template</a>
+                        </li>
+                        <li>
+                            <a class="name" href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/wWqG90E5wKs')">Management - File explorer</a>
+                        </li>
+                        <li>
+                            <a class="name" href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/6dhGc6X7p_M')">ETL - Simple ETL</a>
+                        </li>
+                        <li>
+                            <a class="name" href="#videos" onclick="$('#videoIframe').attr('src','https://www.youtube.com/embed/jGWDftCIpI4')">Spreadsheet - Reports with charts</a>
+                        </li>
                       </ul>
                     </div>
                     <div class="col-md-8 col-md-offset-1 scrollpoint sp-effect2">
@@ -491,6 +512,7 @@
     <script src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
     <script src="js/waypoints.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="http://listjs.com/no-cdn/list.js"></script>
 
     <script>
         $(document).ready(function() {
@@ -504,6 +526,12 @@
                   }
             });
         }
+        
+        var options = {
+        valueNames: [ 'name', 'module' ]
+        };
+        var videosList = new List('videos', options); 
+       
     </script>
 
 </body>
